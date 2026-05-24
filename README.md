@@ -16,10 +16,11 @@ loadstring(game:HttpGet("https://dylanfoc2.github.io/Salad-funcs-reloaded/Main.l
 
 Terminal mode is a pc only feature, this will create a terminal using the rconsole function which will log the fails in here instead of the roblox console, checks has been implemented to prevent crashing from excessive calling and turning the Terminal mode to false auto closes and updates the variable and terminal.
 
-DebugWarns is for developers needing to have some type of information incase the script gets an error, Salad Functions Reloaded has his own Debugging system allowing easy travel for errors
+DebugWarns is for developers needing to have some type of information incase the script gets an error, Salad Functions Reloaded has his own Debugging system allowing easy travel for errors.
 
 ## 👌 Functions
 Currently Salad Functions Reloaded provides:
+
 get_hrp()
 
 isplralive()
@@ -41,7 +42,7 @@ Outputs:
 Dead or alive
 ```
 
-get_hrp() wors like a variable so:
+get_hrp() wokrs like a variable so:
 ```lua
 local hrp = get_hrp()
 ```
