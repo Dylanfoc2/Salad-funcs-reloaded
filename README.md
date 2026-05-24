@@ -19,7 +19,7 @@ loadstring(game:HttpGet("https://dylanfoc2.github.io/Salad-funcs-reloaded/Main.l
 __ __
 Terminal mode is a pc only feature, this will create a terminal using the rconsole function which will log the fails in here instead of the roblox console, checks has been implemented to prevent crashing from excessive calling and turning the Terminal mode to false auto closes and updates the variable and terminal.
 __ __ 
-DebugWarns is mainly for developers or for scripterse to implement this with/without the warns this allows easy toggle, DebugWars is SFCSR own error handling, instead of giving the traditional lua errors which with the script obfuscated might harden the fix it will tell you what happened.
+DebugWarns is mainly for developers or for scripterse to implement this with/without the warns this allows easy toggle, DebugWarns is SFCSR own error handling, instead of giving the traditional lua errors which with the script obfuscated might harden the fix it will tell you what happened.
 __ __
 ## 👌 Functions
 Currently Salad Functions Reloaded provides:
