@@ -23,7 +23,7 @@ get_hrp = function()
 		return hrp
 end
 
-local function isplralive(plr)
+function isplralive(plr)
 	local plr = workspace:WaitForChild(plr).Humanoid
 	if plr.Health > 0 then
 		return "Alive"
@@ -34,7 +34,7 @@ local function isplralive(plr)
 		return "Dead"
 	end
 end
-local function getplrbyname(target)
+function getplrbyname(target)
 	local found = false
 	for i, v in pairs(game.Players:GetPlayers()) do
 		if string.find(string.lower(v.Name), string.lower(target)) then
@@ -50,7 +50,7 @@ local function getplrbyname(target)
 		end
 	end
 end
-local function get_plr_by_name(target)
+function get_plr_by_name(target)
 	local found = false
 	for i, v in pairs(game.Players:GetPlayers()) do
 		if string.find(string.lower(v.Name), string.lower(target)) then
@@ -67,7 +67,7 @@ local function get_plr_by_name(target)
 	end
 end
 
-local function tptoplr(target)
+function tptoplr(target)
 	local Saladplrs = game.Players
 	local found = false
 	local Saladplr = Saladplrs.LocalPlayer
@@ -89,7 +89,7 @@ local function tptoplr(target)
 	end
 end
 
-local function tp_to_plr(target)
+function tp_to_plr(target)
 	local Saladplrs = game.Players
 	local found = false
 	local Saladplr = Saladplrs.LocalPlayer
