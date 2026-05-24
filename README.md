@@ -42,7 +42,7 @@ Outputs:
 Dead or alive
 ```
 
-get_hrp() wokrs like a variable so:
+get_hrp() works like a variable so:
 ```lua
 local hrp = get_hrp()
 ```
