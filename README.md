@@ -3,4 +3,8 @@ This project is made to return the old functions from the salad api, Original fr
 
 ## ❓ How does it work?
 
-Load the loadstring 
+You can start by loading the loadstring:
+```lua
+getgenv().TerminalMode = false
+loadstring(game:HttpGet("https://dylanfoc2.github.io/Salad-funcs-reloaded/Main.lua"))()
+```
